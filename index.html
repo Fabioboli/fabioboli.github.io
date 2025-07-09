@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rifa Premiada</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #009900, #ffcc00);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 {
+      color: #009900;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #1ebe5b;
+    }
+    .urgente {
+      background: red;
+      color: white;
+      font-size: 14px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: inline-block;
+      animation: pisca 1s infinite;
+    }
+    @keyframes pisca {
+      0% { opacity: 1; }
+      50% { opacity: 0.3; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="urgente">⚠️ VAGAS LIMITADAS</div>
+    <h1>🎁 Participe da Nossa Rifa Premiada!</h1>
+    <p>Entre agora para nossa comunidade no WhatsApp e concorra a prêmios reais. Vagas com valor simbólico!</p>
+    <a class="button" href="https://chat.whatsapp.com/DgFFcKwlLDJLPLPNlAT27t" target="_blank">👉 Quero Participar</a>
+  </div>
+</body>
+</html>
