@@ -1,75 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rifa Premiada</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entre no Grupo</title>
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: 'Arial', sans-serif;
-      background: linear-gradient(to bottom, #009900, #ffcc00);
+      background: linear-gradient(to bottom right, #0ac94a, #33cc33);
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       height: 100vh;
-      text-align: center;
     }
-    .container {
-      background: #fff;
-      padding: 40px;
+    .box {
+      background: #f5f5f5;
+      border: 3px solid #FFD700;
       border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      max-width: 400px;
-      width: 90%;
+      padding: 40px 30px;
+      text-align: center;
+      max-width: 380px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    .badge {
+      background-color: #FFD700;
+      color: #006400;
+      font-weight: bold;
+      padding: 6px 15px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 15px;
+      font-size: 14px;
     }
     h1 {
-      color: #009900;
-      font-size: 28px;
-      margin-bottom: 20px;
+      color: #FF9900;
+      font-size: 24px;
+      margin-bottom: 15px;
     }
     p {
+      font-size: 16px;
       color: #333;
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-    a.button {
-      display: inline-block;
-      background-color: #25D366;
-      color: white;
-      padding: 15px 25px;
-      font-size: 18px;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s ease;
-    }
-    a.button:hover {
-      background-color: #1ebe5b;
-    }
-    .urgente {
-      background: red;
-      color: white;
-      font-size: 14px;
-      padding: 5px 10px;
-      border-radius: 5px;
       margin-bottom: 10px;
-      display: inline-block;
-      animation: pisca 1s infinite;
     }
-    @keyframes pisca {
-      0% { opacity: 1; }
-      50% { opacity: 0.3; }
-      100% { opacity: 1; }
+    .price {
+      font-size: 26px;
+      font-weight: bold;
+      color: #00aa00;
+      margin: 20px 0;
+      text-shadow: 0 0 5px #b6ffb6;
+    }
+    .button {
+      background: linear-gradient(to right, #25D366, #c3ff5a);
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background: #1ebe5b;
+    }
+    .button img {
+      width: 24px;
+      margin-right: 10px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="urgente">⚠️ VAGAS LIMITADAS</div>
-    <h1>🎁 Participe da Nossa Rifa Premiada!</h1>
-    <p>Entre agora para nossa comunidade no WhatsApp e concorra a prêmios reais.</p>
-    <a class="button" href="#" target="_blank">👉 Quero Participar</a>
+  <div class="box">
+    <div class="badge">ENTRADA GRÁTIS!</div>
+    <h1>Entre no grupo<br>gratuitamente</h1>
+    <p>Participe da nossa comunidade no WhatsApp!</p>
+    <p><strong>A entrada é 100% grátis.</strong><br>
+    Os sorteios exclusivos acontecem dentro do grupo e<br>
+    você pode participar a partir de apenas:</p>
+    <div class="price">R$ 7,00</div>
+    <a class="button" href="https://chat.whatsapp.com/DgFFcKwlLDJLPLPNlAT27t" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp">
+      Entrar no Grupo →
+    </a>
   </div>
 </body>
 </html>
